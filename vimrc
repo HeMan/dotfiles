@@ -70,6 +70,8 @@ set laststatus=2
 
 nmap <F8> :TagbarToggle<CR>
 
+nmap <Space> <Leader>
+
 nmap <Leader>1 1gt
 nmap <Leader>2 2gt
 nmap <Leader>3 3gt
