@@ -68,6 +68,7 @@ set statusline=%f\ [%4l/%L]
 set statusline+=%=%{fugitive#statusline()} 
 set laststatus=2
 
+map Q <Nop>
 nmap <F8> :TagbarToggle<CR>
 
 nmap <Space> <Leader>
