@@ -115,3 +115,5 @@ let g:tagbar_type_go = {
 autocmd FileType go nmap <F9> :GoBuild<CR>
 autocmd FileType go nmap <Leader>t <Plug>(go-test)
 autocmd FileType go nmap <Leader><C-]> :GoReferrers<CR>
+
+let g:go_fmt_autosave = 0
