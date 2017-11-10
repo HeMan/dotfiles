@@ -83,6 +83,11 @@ nmap <Leader>7 7gt
 nmap <Leader>8 8gt
 nmap <Leader>9 9gt
 
+let g:lasttab = 1
+nmap <Leader>0 :exe "tabn ".g:lasttab<CR>
+au TabLeave * let g:lasttab = tabpagenr()
+
+
 " Golang
 " Add go to tagbar
 let g:tagbar_type_go = {
