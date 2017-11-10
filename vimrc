@@ -10,14 +10,15 @@
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
 
+execute pathogen#infect()
+
+filetype plugin on
+syntax on
+
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
-
-" Vim5 and later versions support syntax highlighting. Uncommenting the next
-" line enables syntax highlighting by default.
-syntax on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -37,8 +38,6 @@ if has("autocmd")
   filetype indent on
 endif
 
-filetype plugin on
-
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
@@ -56,8 +55,6 @@ set autoread
 set wildmode=list:longest,full
 set wildmenu
 set foldmethod=syntax
-
-call pathogen#infect()
 
 "autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
