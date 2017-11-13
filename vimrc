@@ -84,6 +84,9 @@ let g:lasttab = 1
 nmap <Leader>0 :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
 
+highlight BadWhitespace ctermbg=red guibg=red
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
+
 " Python
 let NERDTreeIgnore=['\.pyc$', '\~$'] 
 
