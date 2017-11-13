@@ -84,6 +84,9 @@ let g:lasttab = 1
 nmap <Leader>0 :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
 
+" Python
+let NERDTreeIgnore=['\.pyc$', '\~$'] 
+
 
 " Golang
 " Add go to tagbar
