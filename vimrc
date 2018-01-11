@@ -67,6 +67,7 @@ set laststatus=2
 
 map Q <Nop>
 nmap <F8> :TagbarToggle<CR>
+nmap <F9> :MerginalToggle<CR>
 
 nmap <Space> <Leader>
 
