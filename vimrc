@@ -60,6 +60,11 @@ set foldmethod=syntax
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 colorscheme dracula
 set statusline=%f\ [%4l/%L]
 set statusline+=%=%{fugitive#statusline()} 
@@ -87,6 +92,7 @@ au TabLeave * let g:lasttab = tabpagenr()
 
 highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
+" au BufRead,BufNewFile *.py set foldmethod=indent
 
 " Python
 let NERDTreeIgnore=['\.pyc$', '\~$'] 
