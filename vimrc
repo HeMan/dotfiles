@@ -70,6 +70,8 @@ set statusline=%f\ [%4l/%L]
 set statusline+=%=%{fugitive#statusline()} 
 set laststatus=2
 
+set colorcolumn=80
+
 map Q <Nop>
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :MerginalToggle<CR>
@@ -96,6 +98,30 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
 
 " Python
 let NERDTreeIgnore=['\.pyc$', '\~$'] 
+
+let g:syntastic_python_checkers = ['flake8']
+
+au BufNewFile,BufRead *.py |
+     \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
+    \ set encoding=utf-8
+
+py3 << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+  project_base_dir = os.environ['VIRTUAL_ENV']
+  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+  with open(activate_this) as f:
+      code = compile(f.read(), activate_this, 'exec')
+      exec(code, dict(__file__=activate_this))
+EOF
+
 
 
 " Golang
