@@ -73,3 +73,6 @@
 [submodule "bundle/FastFold"]
 	path = bundle/FastFold
 	url = https://github.com/Konfekt/FastFold.git
+[submodule "bundle/vim-airline-clock"]
+	path = bundle/vim-airline-clock
+	url = https://github.com/enricobacis/vim-airline-clock.git
