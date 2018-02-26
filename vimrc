@@ -59,6 +59,7 @@ set foldmethod=syntax
 "autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+let NERDTreeShowBookmarks = 1
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
@@ -70,6 +71,8 @@ set statusline=%f\ [%4l/%L]
 set statusline+=%=%{fugitive#statusline()} 
 set laststatus=2
 
+let g:airline_powerline_fonts=1
+"set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline
 set colorcolumn=80
 
 map Q <Nop>
