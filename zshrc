@@ -8,7 +8,8 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="geoffgarside"
+#ZSH_THEME="geoffgarside"
+ZSH_THEME="candy-kingdom"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -48,17 +49,32 @@ ZSH_THEME="geoffgarside"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# For virtualenvwrapper
+export WORKON_HOME=~/proj/python/virtualenvs
+export PROJECT_HOME=~/proj/python/projects
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.6
+
+# For ssh-agent-plugin
+#zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent identities id_rsa id_ed25519 id_ed25519_eniro
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dotenv)
+plugins=(battery dotenv git golang mosh screen ssh-agent virtualenv virtualenvwrapper)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
+source ~/.zplug/init.zsh
+
+zplug load
 
 # User configuration
 unsetopt share_history
+export VIMBLACKLIST=vim-go
 # export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -84,6 +100,14 @@ unsetopt share_history
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls='ls -F'
+
+typeset -U path
 #
+#
+
+setopt auto_cd
+cdpath=($HOME/proj)
+
 autoload -Uz ztodo
 chpwd() { ztodo }
