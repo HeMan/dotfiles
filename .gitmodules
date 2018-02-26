@@ -82,3 +82,6 @@
 [submodule "bundle/vim-ripgrep"]
 	path = vim/bundle/vim-ripgrep
 	url = https://github.com/jremmen/vim-ripgrep.git
+[submodule "zplug"]
+	path = zplug
+	url = https://github.com/zplug/zplug.git
