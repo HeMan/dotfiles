@@ -79,3 +79,6 @@
 [submodule "bundle/ansible-vim"]
 	path = bundle/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim.git
+[submodule "bundle/vim-ripgrep"]
+	path = bundle/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep.git
