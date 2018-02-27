@@ -1,0 +1,8 @@
+[core]
+	excludesfile = /home/jimmy/.gitignore_global
+[user]
+	name = Jimmy Hedman
+	email = jimmy.hedman@gmail.com
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[commit]
