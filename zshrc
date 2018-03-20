@@ -11,6 +11,7 @@
 #ZSH_THEME="geoffgarside"
 ZSH_THEME="candy-kingdom"
 
+export OH_MY_ZSH_HG=true
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
