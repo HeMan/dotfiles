@@ -65,8 +65,10 @@ zstyle :omz:plugins:ssh-agent identities id_rsa id_ed25519 id_ed25519_eniro
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(battery dotenv git golang mosh screen ssh-agent virtualenv virtualenvwrapper)
 
+export ZPLUG_HOME=~/dotfiles/zplug/
+export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
 #source $ZSH/oh-my-zsh.sh
-source ~/.zplug/init.zsh
+source ${ZPLUG_HOME}/init.zsh
 
 zplug load
 
