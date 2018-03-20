@@ -6,3 +6,9 @@
 [url "git@bitbucket.org:"]
 	insteadOf = https://bitbucket.org/
 [commit]
+[http]
+	postBuffer = 524288000
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
