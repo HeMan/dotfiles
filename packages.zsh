@@ -14,6 +14,7 @@ zplug "lib/grep", from:oh-my-zsh
 zplug "lib/key-bindings", from:oh-my-zsh
 zplug "lib/termsupport", from:oh-my-zsh
 
-zplug "themes/candy-kingdom", from:oh-my-zsh, as:theme
+zplug "themes/amuse", from:oh-my-zsh, as:theme
 zplug "chrissicool/zsh-256color"
 zplug "lib/history", from:oh-my-zsh
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
