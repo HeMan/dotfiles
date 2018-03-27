@@ -64,9 +64,6 @@
 [submodule "bundle/vim-virtualenv"]
 	path = vim/bundle/vim-virtualenv
 	url = https://github.com/plytophogy/vim-virtualenv.git
-[submodule "bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/SimpylFold"]
 	path = vim/bundle/SimpylFold
 	url = https://github.com/tmhedberg/SimpylFold.git
@@ -85,3 +82,9 @@
 [submodule "zplug"]
 	path = zplug
 	url = https://github.com/zplug/zplug.git
+[submodule "vim/bundle/vim-polyglot"]
+	path = vim/bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "vim/bundle/ale"]
+	path = vim/bundle/ale
+	url = https://github.com/w0rp/ale.git
