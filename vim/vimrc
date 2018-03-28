@@ -99,6 +99,9 @@ highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
 " au BufRead,BufNewFile *.py set foldmethod=indent
 
+" Ansible
+let g:ansible_unindent_after_newline = 1
+
 " Python
 let NERDTreeIgnore=['\.pyc$', '\~$'] 
 
