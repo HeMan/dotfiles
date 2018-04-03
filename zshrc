@@ -103,6 +103,7 @@ export VIMBLACKLIST=vim-go
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export ANSIBLE_NOCOWS=1
 alias ls='ls -F'
 
 typeset -U path
