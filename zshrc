@@ -104,7 +104,10 @@ export VIMBLACKLIST=vim-go
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export ANSIBLE_NOCOWS=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+
 alias ls='ls -F'
+alias gupm='git pull --rebase origin master'
 
 typeset -U path
 #
