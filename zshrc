@@ -69,6 +69,7 @@ plugins=(battery dotenv git golang mosh screen ssh-agent virtualenv virtualenvwr
 export ZPLUG_HOME=~/dotfiles/zplug/
 export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
 #source $ZSH/oh-my-zsh.sh
+[ -f /etc/zsh_command_not_found ] && source /etc/zsh_command_not_found
 source ${ZPLUG_HOME}/init.zsh
 
 zplug load
