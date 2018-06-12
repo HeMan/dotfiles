@@ -104,6 +104,10 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
 set switchbuf+=usetab,newtab
 " au BufRead,BufNewFile *.py set foldmethod=indent
 
+set undodir=~/.vim/.undo//
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.swp//
+
 " Ansible
 let g:ansible_unindent_after_newline = 1
 
