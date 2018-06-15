@@ -88,3 +88,6 @@
 [submodule "vim/bundle/ale"]
 	path = vim/bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "vim/bundle/vim-log-syntax"]
+	path = vim/bundle/vim-log-syntax
+	url = https://github.com/dzeban/vim-log-syntax.git
