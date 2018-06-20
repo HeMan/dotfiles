@@ -91,3 +91,6 @@
 [submodule "vim/bundle/vim-log-syntax"]
 	path = vim/bundle/vim-log-syntax
 	url = https://github.com/dzeban/vim-log-syntax.git
+[submodule "vim/bundle/vim-coiled-snake"]
+	path = vim/bundle/vim-coiled-snake
+	url = git://github.com/kalekundert/vim-coiled-snake.git
