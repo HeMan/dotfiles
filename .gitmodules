@@ -94,3 +94,6 @@
 [submodule "vim/bundle/vim-coiled-snake"]
 	path = vim/bundle/vim-coiled-snake
 	url = git://github.com/kalekundert/vim-coiled-snake.git
+[submodule "vim/bundle/vim-codequery"]
+	path = vim/bundle/vim-codequery
+	url = https://github.com/devjoe/vim-codequery.git
