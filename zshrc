@@ -76,7 +76,6 @@ zplug load
 
 # User configuration
 unsetopt share_history
-export VIMBLACKLIST=vim-go
 # export MANPATH="/usr/local/man:$MANPATH"
 
 

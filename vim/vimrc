@@ -10,6 +10,8 @@
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
 
+let g:pathogen_disabled=["vim-go","vim-snipmate"]
+
 execute pathogen#infect()
 
 filetype plugin on
