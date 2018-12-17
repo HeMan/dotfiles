@@ -18,3 +18,4 @@ zplug "themes/amuse", from:oh-my-zsh, as:theme
 zplug "chrissicool/zsh-256color"
 zplug "lib/history", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "plugins/ztodo", from:oh-my-zsh
