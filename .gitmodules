@@ -112,3 +112,6 @@
 [submodule "vim/bundle/editorconfig-vim"]
 	path = vim/bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/bundle/pytest.vim"]
+	path = vim/bundle/pytest.vim
+	url = https://github.com/alfredodeza/pytest.vim.git
