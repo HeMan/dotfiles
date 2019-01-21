@@ -118,3 +118,6 @@
 [submodule "vim/bundle/jedi-vim"]
 	path = vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "vim/bundle/vim-gutentags"]
+	path = vim/bundle/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
