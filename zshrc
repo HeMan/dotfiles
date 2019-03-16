@@ -108,6 +108,7 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
 alias ls='ls -F'
 alias gupm='git pull --rebase origin master'
+alias rg='ripgrep.rg'
 
 typeset -U path
 #

@@ -117,6 +117,9 @@ map <leader>dc :q<cr>:diffoff!<cr>
 " Ansible
 let g:ansible_unindent_after_newline = 1
 
+" Ripgrep
+let g:rg_binary='ripgrep.rg'
+
 " Python
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
