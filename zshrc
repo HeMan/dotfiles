@@ -54,7 +54,7 @@ export OH_MY_ZSH_HG=true
 export WORKON_HOME=~/proj/python/virtualenvs
 export PROJECT_HOME=~/proj/python/projects
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.6
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.7
 
 # For ssh-agent-plugin
 #zstyle :omz:plugins:ssh-agent agent-forwarding on
