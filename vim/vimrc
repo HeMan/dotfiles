@@ -184,3 +184,11 @@ autocmd FileType go nmap <Leader><C-]> :GoReferrers<CR>
 autocmd FileType go nmap <C-A>] <Plug>(go-def-tab)
 
 let g:go_fmt_autosave = 0
+
+" autocmd FileType javascript set formatprg=/home/jimmy/bin/prettier\ --stdin
+" autocmd BufWritePre *.js :normal gggqG
+let g:deoplete#enable_at_startup = 1
+" let $NVIM_PYTHON_LOG_FILE="/tmp/nvim_log"
+" let $NVIM_PYTHON_LOG_LEVEL="DEBUG"
+
+set omnifunc=syntaxcomplete#Complete
