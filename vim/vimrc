@@ -10,7 +10,7 @@
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
 
-let g:pathogen_disabled=["vim-go","vim-snipmate"]
+let g:pathogen_disabled=["vim-go", "deoplete.nvim", "SimpylFold", "vim-coiled-snake", "vim-airline-clock"]
 
 execute pathogen#infect()
 
@@ -77,10 +77,36 @@ set statusline+=%=%{fugitive#statusline()}
 set laststatus=2
 
 let g:airline_powerline_fonts=1
+let g:airline_mode_map = {
+			\ '__'     : '-',
+			\ 'c'      : 'C',
+			\ 'i'      : 'I',
+			\ 'ic'     : 'I',
+			\ 'ix'     : 'I',
+			\ 'n'      : 'N',
+			\ 'multi'  : 'M',
+			\ 'ni'     : 'N',
+			\ 'no'     : 'N',
+			\ 'R'      : 'R',
+			\ 'Rv'     : 'R',
+			\ 's'      : 'S',
+			\ 'S'      : 'S',
+			\ '^S'     : 'S',
+			\ 't'      : 'T',
+			\ 'v'      : 'V',
+			\ 'V'      : 'V',
+			\ '^V'     : 'V',
+			\ }
+" let g:airline_section_x = '%{airline#util#prepend("",0)}%{airline#util#prepend(airline#extensions#tagbar#currenttag(),0)}%{airline#util#prepend(airline#extensions#vista#currenttag(),0)}'
+
+let g:airline_section_y = ''
+
 "set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline
 set colorcolumn=80
 
 map Q <Nop>
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
+
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :MerginalToggle<CR>
 
@@ -104,7 +130,7 @@ highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.go match BadWhitespace /\s\+$/
 
 set switchbuf+=usetab,newtab
-" au BufRead,BufNewFile *.py set foldmethod=indent
+au BufRead,BufNewFile *.py set foldmethod=indent
 
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
