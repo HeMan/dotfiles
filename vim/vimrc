@@ -212,3 +212,11 @@ let g:deoplete#enable_at_startup = 1
 " let $NVIM_PYTHON_LOG_LEVEL="DEBUG"
 
 set omnifunc=syntaxcomplete#Complete
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:snips_author = "Jimmy Hedman <jimmy.hedman@gmail.com>"
+let g:snips_email = "jimmy.hedman@gmail.com"
+let g:snips_github = "https://github.com/HeMan/"
