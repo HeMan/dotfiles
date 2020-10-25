@@ -24,3 +24,4 @@ check_and_link ~/dotfiles/gitconfig ~/.gitconfig
 check_and_link ~/dotfiles/gitignore_global ~/.gitignore_global
 check_and_link ~/dotfiles/zshrc ~/.zshrc
 check_and_link ~/dotfiles/screenrc ~/.screenrc
+check_and_link ~/dotfiles/sshconfig ~/.ssh/config
