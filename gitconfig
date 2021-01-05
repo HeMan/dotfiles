@@ -12,3 +12,5 @@
 	tool = meld
 [difftool]
 	prompt = false
+[pull]
+	rebase = true
