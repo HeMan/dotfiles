@@ -57,7 +57,7 @@ zstyle :omz:plugins:ssh-agent identities id_rsa id_ed25519 id_ed25519_eniro
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(battery dotenv git golang mosh screen ssh-agent virtualenv virtualenvwrapper)
+plugins=(battery dotenv git golang mosh screen virtualenv virtualenvwrapper)
 
 export ZPLUG_HOME=~/dotfiles/zplug/
 export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
