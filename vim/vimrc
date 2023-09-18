@@ -220,3 +220,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:snips_author = "Jimmy Hedman <jimmy.hedman@gmail.com>"
 let g:snips_email = "jimmy.hedman@gmail.com"
 let g:snips_github = "https://github.com/HeMan/"
+
+let &t_ut=''
