@@ -127,3 +127,6 @@
 [submodule "vim/bundle/vim-jinja"]
 	path = vim/bundle/vim-jinja
 	url = https://github.com/lepture/vim-jinja.git
+[submodule "vim/bundle/vim-kitty-navigator"]
+	path = vim/bundle/vim-kitty-navigator
+	url = https://github.com/knubie/vim-kitty-navigator.git
