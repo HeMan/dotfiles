@@ -51,13 +51,12 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # For ssh-agent-plugin
 #zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities id_rsa id_ed25519 id_ed25519_eniro
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(battery dotenv git golang mosh screen virtualenv virtualenvwrapper)
+plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper)
 
 export ZPLUG_HOME=~/dotfiles/zplug/
 export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
@@ -75,7 +74,7 @@ unsetopt share_history
 export ANSIBLE_NOCOWS=1
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
-alias ls='ls -F'
+alias ls='ls -F --hyperlink=auto'
 alias gupm='git pull --rebase origin master'
 alias rg='ripgrep.rg'
 
@@ -88,3 +87,4 @@ cdpath=($HOME/proj)
 
 autoload -Uz ztodo
 chpwd() { ztodo }
+workon_cwd
