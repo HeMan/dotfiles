@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=$PATH:/snap/bin
 fpath=($fpath /usr/share/zsh/vendor-completions)
 # Path to your oh-my-zsh installation.
 #  export ZSH=/home/jimmy/.oh-my-zsh
@@ -56,7 +56,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper)
+plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper ssh-agent)
 
 export ZPLUG_HOME=~/dotfiles/zplug/
 export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
