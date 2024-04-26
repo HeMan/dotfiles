@@ -13,3 +13,4 @@ Host *
     ServerAliveInterval 60
     ServerAliveCountMax 5
 
+Include ~/.ssh/customer_ssh_config
