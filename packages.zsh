@@ -20,3 +20,4 @@ zplug "chrissicool/zsh-256color"
 zplug "lib/history", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "plugins/ztodo", from:oh-my-zsh
+zplug "plugins/gpg-agent", from:oh-my-zsh

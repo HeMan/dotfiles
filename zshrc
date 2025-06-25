@@ -56,7 +56,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper)
+plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper gpg-agent)
 
 export ZPLUG_HOME=~/dotfiles/zplug/
 export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
