@@ -1,0 +1,6 @@
+"""
+Docstring
+
+def foo():
+    pass
+"""
