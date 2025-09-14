@@ -1,0 +1,21 @@
+chrissicool/zsh-256color
+endaaman/lxd-completion-zsh
+lib/async_prompt, from:oh-my-zsh
+lib/completion, from:oh-my-zsh
+lib/directories, from:oh-my-zsh
+lib/functions, from:oh-my-zsh
+lib/grep, from:oh-my-zsh
+lib/history, from:oh-my-zsh
+lib/key-bindings, from:oh-my-zsh
+lib/termsupport, from:oh-my-zsh
+plugins/battery, from:oh-my-zsh
+plugins/dotenv, from:oh-my-zsh
+plugins/git, from:oh-my-zsh
+plugins/gpg-agent, from:oh-my-zsh
+plugins/mosh, from:oh-my-zsh
+plugins/screen, from:oh-my-zsh
+plugins/virtualenv, from:oh-my-zsh
+plugins/virtualenvwrapper, from:oh-my-zsh
+plugins/ztodo, from:oh-my-zsh
+themes/amuse, as:theme from:oh-my-zsh
+zsh-users/zsh-syntax-highlighting, defer:2

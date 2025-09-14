@@ -1,0 +1,16 @@
+repo:lib/termsupport	status:0
+repo:plugins/screen	status:0
+repo:lib/grep	status:0
+repo:plugins/virtualenv	status:1
+repo:lib/directories	status:0
+repo:lib/completion	status:0
+repo:plugins/mosh	status:0
+repo:lib/key-bindings	status:0
+repo:lib/history	status:0
+repo:plugins/dotenv	status:0
+repo:plugins/battery	status:0
+repo:lib/async_prompt	status:0
+repo:endaaman/lxd-completion-zsh	status:0
+repo:chrissicool/zsh-256color	status:0
+repo:zsh-users/zsh-syntax-highlighting	status:0
+repo:lib/functions	status:0

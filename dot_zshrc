@@ -58,8 +58,8 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper gpg-agent)
 
-export ZPLUG_HOME=~/dotfiles/zplug/
-export ZPLUG_LOADFILE=~/dotfiles/packages.zsh
+export ZPLUG_HOME=~/.zplug/
+export ZPLUG_LOADFILE=~/.packages.zsh
 #source $ZSH/oh-my-zsh.sh
 [ -f /etc/zsh_command_not_found ] && source /etc/zsh_command_not_found
 source ${ZPLUG_HOME}/init.zsh
