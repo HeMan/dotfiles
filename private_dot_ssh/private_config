@@ -1,0 +1,18 @@
+ForwardAgent yes
+Compression yes
+#ConnectionAttempts 5
+ForwardX11 yes
+HashKnownHosts no
+GSSAPIDelegateCredentials yes
+
+ServerAliveInterval 60
+
+Host *
+    AddKeysToAgent yes
+    ControlMaster auto
+    ControlPath ~/.ssh/master-%r@%h:%p
+    ServerAliveInterval 60
+    ServerAliveCountMax 5
+    HostKeyAlgorithms +ssh-rsa
+    PubkeyAcceptedKeyTypes +ssh-rsa
+
