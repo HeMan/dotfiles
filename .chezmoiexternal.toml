@@ -1,0 +1,172 @@
+[".vim/vim-pathogen"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tpope/vim-pathogen.git"
+[".vim/bundle/nerdtree"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/scrooloose/nerdtree.git"
+[".vim/bundle/nerdtree-git-plugin"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/Xuyuanp/nerdtree-git-plugin.git"
+[".vim/bundle/tagbar"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/majutsushi/tagbar"
+[".vim/bundle/tlib_vim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tomtom/tlib_vim.git"
+[".vim/bundle/vim-addon-mw-utils"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/MarcWeber/vim-addon-mw-utils.git"
+[".vim/bundle/vim-snippets"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/honza/vim-snippets.git"
+[".vim/bundle/vim-airline"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/vim-airline/vim-airline"
+[".vim/bundle/vim-fugitive"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tpope/vim-fugitive.git"
+[".vim/bundle/vim-gitgutter"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/airblade/vim-gitgutter.git"
+[".vim/bundle/vim-go"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/fatih/vim-go.git"
+[".vim/bundle/vim-surround"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tpope/vim-surround.git"
+[".vim/bundle/vim-arduino"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/stevearc/vim-arduino"
+[".vim/bundle/dracula-theme"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/dracula/vim.git"
+[".vim/bundle/Dockerfile.vim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/ekalinin/Dockerfile.vim.git"
+[".vim/bundle/vim-flake8"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/nvie/vim-flake8.git"
+[".vim/bundle/vim-fugitive-blame-ext"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tommcdo/vim-fugitive-blame-ext.git"
+[".vim/bundle/vim-merginal"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/idanarye/vim-merginal.git"
+[".vim/bundle/vim-slumlord"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/scrooloose/vim-slumlord.git"
+[".vim/bundle/plantuml-syntax"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/aklt/plantuml-syntax.git"
+[".vim/bundle/vim-virtualenv"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/plytophogy/vim-virtualenv.git"
+[".vim/bundle/SimpylFold"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tmhedberg/SimpylFold.git"
+[".vim/bundle/FastFold"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/Konfekt/FastFold.git"
+[".vim/bundle/vim-airline-clock"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/enricobacis/vim-airline-clock.git"
+[".vim/bundle/ansible-vim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/pearofducks/ansible-vim.git"
+[".vim/bundle/vim-ripgrep"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/jremmen/vim-ripgrep.git"
+[".vim/bundle/vim-polyglot"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/sheerun/vim-polyglot"
+[".vim/bundle/ale"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/w0rp/ale.git"
+[".vim/bundle/vim-log-syntax"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/dzeban/vim-log-syntax.git"
+[".vim/bundle/vim-coiled-snake"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/kalekundert/vim-coiled-snake.git"
+[".vim/bundle/vim-codequery"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/devjoe/vim-codequery.git"
+[".vim/bundle/ultisnips"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/SirVer/ultisnips.git"
+[".vim/bundle/vim-orgmode"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/jceb/vim-orgmode.git"
+[".vim/bundle/vim-speeddating"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/tpope/vim-speeddating.git"
+[".vim/bundle/vim-asciidoc"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/asciidoc/vim-asciidoc.git"
+[".vim/bundle/pytest.vim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/alfredodeza/pytest.vim.git"
+[".vim/bundle/jedi-vim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/davidhalter/jedi-vim.git"
+[".vim/bundle/vim-gutentags"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/ludovicchabant/vim-gutentags.git"
+[".vim/bundle/deoplete.nvim"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/Shougo/deoplete.nvim.git"
+[".vim/bundle/nvim-yarp"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/roxma/nvim-yarp.git"
+[".vim/bundle/vim-hug-neovim-rpc"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/roxma/vim-hug-neovim-rpc.git"
+[".vim/bundle/vim-jinja"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/lepture/vim-jinja.git"
+[".vim/bundle/vim-kitty-navigator"]
+	type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/knubie/vim-kitty-navigator.git"
