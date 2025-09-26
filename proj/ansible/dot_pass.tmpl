@@ -1,1 +1,3 @@
+{{ if stat .chezmoi.config.keepassxc.database }}
 {{ keepassxcAttribute "Infra/Ansible vault" "Password" }}
+{{ end }}
