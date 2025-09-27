@@ -170,3 +170,7 @@
 	type = "git-repo"
 	refreshPeriod = "168h"
 	url = "https://github.com/knubie/vim-kitty-navigator.git"
+[".zplug"]
+  type = "git-repo"
+	refreshPeriod = "168h"
+	url = "https://github.com/zplug/zplug.git"
