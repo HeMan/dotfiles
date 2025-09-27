@@ -1,0 +1,12 @@
+os_window_state maximized
+# Set the layout for the current tab
+layout horizontal
+#os_window_state fullscreen
+# Set the working directory for windows in the current tab
+cd ~/proj/esphome
+# Create a window and run the specified command in it
+launch zsh
+launch vim
+resize_window wider 20
+
+launch zsh
