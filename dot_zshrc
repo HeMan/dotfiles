@@ -50,13 +50,13 @@ export PROJECT_HOME=~/proj/python/projects
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # For ssh-agent-plugin
-#zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper gpg-agent)
+plugins=(dotenv git golang mosh screen virtualenv virtualenvwrapper gpg-agent ssh-agent)
 
 export ZPLUG_HOME=~/.zplug/
 export ZPLUG_LOADFILE=~/.packages.zsh
