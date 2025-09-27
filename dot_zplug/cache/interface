@@ -14,6 +14,7 @@ plugins/git, from:oh-my-zsh
 plugins/gpg-agent, from:oh-my-zsh
 plugins/mosh, from:oh-my-zsh
 plugins/screen, from:oh-my-zsh
+plugins/ssh-agent, from:oh-my-zsh
 plugins/virtualenv, from:oh-my-zsh
 plugins/virtualenvwrapper, from:oh-my-zsh
 plugins/ztodo, from:oh-my-zsh
