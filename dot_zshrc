@@ -81,6 +81,14 @@ alias rg='ripgrep.rg'
 typeset -U path
 #
 #
+if pgrep -x ssh-tpm-agent >/dev/null 2>&1; then
+  agent_socket="$(ssh-tpm-agent --print-socket 2>/dev/null)"
+
+  if [[ -n "$agent_socket" && "$SSH_AUTH_SOCK" != "$agent_socket" ]]; then
+    export SSH_AUTH_SOCK="$agent_socket"
+  fi
+fi
+
 
 setopt auto_cd
 cdpath=($HOME/proj)
