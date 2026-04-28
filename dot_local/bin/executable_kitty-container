@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+set -euo pipefail
+runtime=${commands[podman]:+podman}
+runtime=${runtime:-${commands[docker]:+docker}}
+
+[[ -n "$runtime" ]] || {
+  print -u2 "Error"
+  exit 1
+}
+
+container=$(
+  $runtime ps --format '{{.Names}}\t{{.Image}}\t{{.Status}}' |
+  fzf --prompt="$runtime container> " | cut -f1
+)
+
+exec $runtime exec -it "$container" /bin/sh
