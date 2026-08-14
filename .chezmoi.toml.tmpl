@@ -1,3 +1,7 @@
 [keepassxc]
     mode = "builtin"
     database = "/home/jimmy/Nextcloud/keepassdb.kdbx"
+
+[diff]
+    command = "meld"
+    args = ["--diff", "{{ "{{" }} .Destination {{ "}}" }}", "{{ "{{" }} .Target {{ "}}" }}"]
